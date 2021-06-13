@@ -1,0 +1,32 @@
+{
+    "ChiaPlotConfiguration": {
+        "DestinationDrives": [
+            "/chia/plots/share/100",
+            "/chia/plots/share/101",
+            "/chia/plots/share/102",
+            "/chia/plots/share/103",
+            "/chia/plots/share/104",
+            "/chia/plots/share/105",
+            "/chia/plots/share/106",
+            "/chia/plots/share/107",
+            "/chia/plots/share/108",
+            "/chia/plots/share/109",
+            "/chia/plots/share/200",
+            "/chia/plots/share/201",
+            "/chia/plots/share/202",
+            "/chia/plots/share/203",
+            "/chia/plots/share/204",
+            "/chia/plots/share/205",
+            "/chia/plots/share/206",
+            "/chia/plots/share/207",
+            "/chia/plots/share/208",
+            "/chia/plots/share/209"
+        ],
+        "PlotLocations": [
+            "/chia/plottemp1", 
+            "/chia/plottemp2", 
+            "/chia/plottemp3", 
+            "/chia/plottemp4"
+        ]
+    }
+}

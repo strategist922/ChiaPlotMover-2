@@ -1,0 +1,7 @@
+# exclude everything except directory foo/bar
+
+bin/
+obj/
+.vscode/
+/notes.txt
+/plot-settings.json
