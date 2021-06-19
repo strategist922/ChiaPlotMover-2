@@ -30,7 +30,7 @@ namespace ChiaPlotMover
             var totalFilesTransfered = 0;
             long totalBytesTransfered = 0;
             var destinationIndex = 0;
-            var maxParallelTransfers = 2;
+            var maxParallelTransfers = 4;
             while(true) 
             {
                 var tasks = new List<Task>();
