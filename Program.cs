@@ -36,7 +36,7 @@ namespace ChiaPlotMover
                 var tasks = new List<Task>();
                 foreach (var folder in config.PlotLocations) 
                 {
-                    var plots = Directory.GetFiles(folder, "*.plot").Where(f => f.IndexOf(".plot.") == -1);
+                    var plots = Directory.GetFiles(folder, "*.plot").Where(f => f.IndexOf(".plot.") == -1).Take(1);
 
                     foreach(var plot in plots) 
                     {
